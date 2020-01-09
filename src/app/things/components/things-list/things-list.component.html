@@ -1,0 +1,10 @@
+<div class="controls">
+  <a routerLink="/thing-add">Create New</a>
+</div>
+
+<div *ngFor="let thing of things$ | async">
+  <div class="thing">
+    <div class="title">{{ thing.title }}</div>
+    <div class="body">{{ thing.body }}</div>
+  </div>
+</div>

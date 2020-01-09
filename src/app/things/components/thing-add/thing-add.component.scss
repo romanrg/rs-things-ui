@@ -1,0 +1,31 @@
+.form {
+  display: grid;
+  width: 500px;
+  grid-template-areas:
+    "text-label text-input"
+    "body-label body-label"
+    "body-textarea body-textarea"
+    "body-textarea body-textarea"
+    "add-button .";
+
+
+  .text-label {
+    grid-area: text-label;
+  }
+
+  .text-input {
+    grid-area: text-input;
+  }
+
+  .body-label {
+    grid-area: body-label;
+  }
+
+  .body-textarea {
+    grid-area: body-textarea;
+  }
+
+  .add-button {
+    grid-area: add-button;
+  }
+}

@@ -1,0 +1,32 @@
+.controls {
+  display: flex;
+
+  a {
+    padding: 3px;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.thing {
+  border-left: 3px dotted #9146ff;
+  padding-left: 10px;
+  margin-top: 10px;
+
+  .title {
+    font-weight: 500;
+    font-size: 20px;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .body {
+    font-size: 14px;
+  }
+}

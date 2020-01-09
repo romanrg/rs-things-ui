@@ -1,0 +1,11 @@
+{
+  "editor.formatOnSave": false,
+    "prettier.prettierPath": "./node_modules/prettier",
+    "prettier.configPath": "./.prettierrc.json",
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+}

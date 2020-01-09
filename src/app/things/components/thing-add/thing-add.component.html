@@ -1,0 +1,7 @@
+<div class="form">
+  <label for="title" class="title-label">Title:</label>
+  <input id="title" class="title-input" type="text" [formControl]="titleControl">
+  <label for="body" class="body-label">Body:</label>
+  <textarea class="body-textarea" id="body" cols="30" rows="10" [formControl]="bodyControl"></textarea>
+  <button class="add-button" (click)="handleAddClick()">Add</button>
+</div>
